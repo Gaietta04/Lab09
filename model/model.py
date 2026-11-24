@@ -82,7 +82,7 @@ class Model:
         #Lista delle escursioni disponibili nel parco selezionato
         self._escursioni_parco = []
 
-        # Salvo i vincoli inseriti dall'utente
+        # Salvo i vincoli inseriti
         # None significa che non è previsto alcun limite
         self._max_giorni = max_giorni
         self._max_budget = max_budget
